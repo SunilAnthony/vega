@@ -16,13 +16,13 @@ namespace Vega.Migrations
             migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make1-ModelB', (Select Id FROM Makes Where Name = 'Make1'))"); 
             migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make1-ModelC', (Select Id FROM Makes Where Name = 'Make1'))");
 
-            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make1-ModelA', (Select Id FROM Makes Where Name = 'Make2'))"); 
-            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make1-ModelB', (Select Id FROM Makes Where Name = 'Make2'))"); 
-            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make1-ModelC', (Select Id FROM Makes Where Name = 'Make2'))");
+            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make2-ModelA', (Select Id FROM Makes Where Name = 'Make2'))"); 
+            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make2-ModelB', (Select Id FROM Makes Where Name = 'Make2'))"); 
+            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make2-ModelC', (Select Id FROM Makes Where Name = 'Make2'))");
 
-            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make1-ModelA', (Select Id FROM Makes Where Name = 'Make3'))"); 
-            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make1-ModelB', (Select Id FROM Makes Where Name = 'Make3'))"); 
-            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make1-ModelC', (Select Id FROM Makes Where Name = 'Make3'))"); 
+            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make3-ModelA', (Select Id FROM Makes Where Name = 'Make3'))"); 
+            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make3-ModelB', (Select Id FROM Makes Where Name = 'Make3'))"); 
+            migrationBuilder.Sql("INSERT INTO Models (Name, MakeID) Values ('Make3-ModelC', (Select Id FROM Makes Where Name = 'Make3'))"); 
            
                        
         }
